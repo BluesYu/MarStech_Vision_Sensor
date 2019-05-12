@@ -12,7 +12,7 @@ Hardware Circuit Design（硬件电路设计）
 
 Construction of Development Environment（开发环境搭建）
 -----------------------------------------------------
- *  [开发环境搭建](http://blog.csdn.net/guodongxiaren)
+ *  [开发环境搭建](https://blog.csdn.net/bluesyxx/article/details/85255634#commentsedit)
  * 测试程序编译命令为：
 g++ main.cpp gpio_pi/gpio_pi.cpp gpio_pi/key_pi.cpp gpio_pi/led_pi.cpp  uart_io/uart_io.cpp  color_mode/color_mode.cpp track_mode/track_color_mode.cpp bar_mode/bar_mode.cpp -o main_test -lopencv_core -lopencv_highgui -lopencv_imgproc -lpthread -std=c++11
 

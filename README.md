@@ -6,28 +6,28 @@ MarStech_Vision_Sensor
 
 Hardware Circuit Design（硬件电路设计）
 -------------------------------------
-*Key（按键）：key1，key2，key3依次对应为：GPA0,GPA6,GPA2,低电平有效;
-*LED（显示）：led为补光led，对应GPA2，高电平有效;
+* Key（按键）：key1，key2，key3依次对应为：GPA0,GPA6,GPA2,低电平有效;
+* LED（显示）：led为补光led，对应GPA2，高电平有效;
              led1(GN)，led2(YL)，led3(BU)依次对应为：GPC0,GPC1,GPA1,低电平有效;
 
 Construction of Development Environment（开发环境搭建）
 -----------------------------------------------------
  *  [开发环境搭建](http://blog.csdn.net/guodongxiaren)
-*测试程序编译命令为：
+* 测试程序编译命令为：
 g++ main.cpp gpio_pi/gpio_pi.cpp gpio_pi/key_pi.cpp gpio_pi/led_pi.cpp  uart_io/uart_io.cpp  color_mode/color_mode.cpp track_mode/track_color_mode.cpp bar_mode/bar_mode.cpp -o main_test -lopencv_core -lopencv_highgui -lopencv_imgproc -lpthread -std=c++11
 
 
 （Code Organization）代码结构
 -------------------------------------
-*bar_mode：\<br>
-*color_mode：\<br>
-*track_color_mode：\<br>
-*lenet_num_mode：\<br>
-*lenet：\<br>
-*sqz_mode：\<br>
-*sqz_net：\<br>
-*gpio_pi：\<br>
-*uart_io：\<br>
+* bar_mode：\<br>
+* color_mode：\<br>
+* track_color_mode：\<br>
+* lenet_num_mode：\<br>
+* lenet：\<br>
+* sqz_mode：\<br>
+* sqz_net：\<br>
+* gpio_pi：\<br>
+* uart_io：\<br>
 
 Author（作者）
 -------------------------------------

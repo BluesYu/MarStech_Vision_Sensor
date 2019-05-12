@@ -1,7 +1,9 @@
-1£¬ÓÃÓÚGPIOºÍÓ²¼ş£¨°´¼ü¡¢LED£©£»
-2£¬°´¼ü£ºkey1£¬key2£¬key3ÒÀ´Î¶ÔÓ¦Îª£ºGPA0,GPA6,GPA2,µÍµçÆ½ÓĞĞ§;
-2£¬LED£ºledÎª²¹¹âled£¬¶ÔÓ¦GPA2£¬¸ßµçÆ½ÓĞĞ§;
-        led1(GN)£¬led2(YL)£¬led3(BU)ÒÀ´Î¶ÔÓ¦Îª£ºGPC0,GPC1,GPA1,µÍµçÆ½ÓĞĞ§;
-3, ²âÊÔ³ÌĞò±àÒëÃüÁîÎª£º
+#MarStech Vision Sensor  
+====
+1ï¼Œç”¨äºGPIOå’Œç¡¬ä»¶ï¼ˆæŒ‰é”®ã€LEDï¼‰ï¼›
+2ï¼ŒæŒ‰é”®ï¼škey1ï¼Œkey2ï¼Œkey3ä¾æ¬¡å¯¹åº”ä¸ºï¼šGPA0,GPA6,GPA2,ä½ç”µå¹³æœ‰æ•ˆ;
+2ï¼ŒLEDï¼šledä¸ºè¡¥å…‰ledï¼Œå¯¹åº”GPA2ï¼Œé«˜ç”µå¹³æœ‰æ•ˆ;
+        led1(GN)ï¼Œled2(YL)ï¼Œled3(BU)ä¾æ¬¡å¯¹åº”ä¸ºï¼šGPC0,GPC1,GPA1,ä½ç”µå¹³æœ‰æ•ˆ;
+3, æµ‹è¯•ç¨‹åºç¼–è¯‘å‘½ä»¤ä¸ºï¼š
 g++ main.cpp gpio_pi/gpio_pi.cpp gpio_pi/key_pi.cpp gpio_pi/led_pi.cpp  uart_io/uart_io.cpp  color_mode/color_mode.cpp track_mode/track_color_mode.cpp bar_mode/bar_mode.cpp -o main_test -lopencv_core -lopencv_highgui -lopencv_imgproc -lpthread -std=c++11
 

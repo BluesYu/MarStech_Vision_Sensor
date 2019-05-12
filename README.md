@@ -8,8 +8,9 @@ MarStech_Vision_Sensor
  chip can not only run digital image processing algorithm, but also build a lightweight neural network framework, which is suitable for
  the design of visual sensor for robot programming education.
     火星人视觉传感器：随着计算机和人工智能技术的日益发展，青少年机器人编程教育也越来越流行，相关的教学设备逐渐成为研究的热点。视觉传感器是相关教学设备的核心部件，也是影响机器人智能化表现的关键模块。现有视觉传感器可实现功能单一，且识别、分类准确率较低，同时价格较高难以在教育市场推广普及，因而无法满足市场需求。本传感器采用的以'低成本'全志H5芯片为基础的系统不仅可以运行'数字图像处理算法'，还可以搭建'轻量级神经网络框架'，适合用于机器人编程教育视觉传感器的设计。
-作者信息
-===============================
+
+Author
+========
 * Author(作者)：BluesYu
 * E-mail(邮箱)：254972181@qq.com
 ====

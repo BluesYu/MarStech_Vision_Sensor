@@ -19,11 +19,6 @@ Hardware Circuit Design（硬件电路设计）
        led1(GN)，led2(YL)，led3(BU)依次对应为：GPC0,GPC1,GPA1,低电平有效;
 ====
 开发环境搭建（Construction of Development Environment）
-
-
-
-
-====
 3, 测试程序编译命令为：
 g++ main.cpp gpio_pi/gpio_pi.cpp gpio_pi/key_pi.cpp gpio_pi/led_pi.cpp  uart_io/uart_io.cpp  color_mode/color_mode.cpp track_mode/track_color_mode.cpp bar_mode/bar_mode.cpp -o main_test -lopencv_core -lopencv_highgui -lopencv_imgproc -lpthread -std=c++11
     欢迎到访  

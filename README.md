@@ -10,6 +10,7 @@ Structural Design of Overall Frame（总体框架结构设计）
 Hardware Circuit Design（硬件电路设计）
 -------------------------------------
 * [Sensor circuit schematic diagram(传感器电路原理图)](https://github.com/BluesYu/MarStech_Vision_Sensor/blob/master/MarStech_Vision_Sensor_Pcb.pdf)
+* [Visual Sensor Development Board Purchase(视觉传感器开发板购买)](https://www.imarsclub.com/web/index)
 * Key（按键）：key1,key2,key3 Corresponding to（依次对应为）：GPA0,GPA6,GPA2,Low Level Effective（低电平有效）
 * LED（指示灯显示）：led1 Used for supplementary lighting（用于补光)，Corresponding to(对应于)GPA2,High Level Effectiveness（高电平有效）
               led1(GN),led2(YL),led3(BU) Corresponding to（依次对应为）：GPC0,GPC1,GPA1,Low Level Effective（低电平有效）

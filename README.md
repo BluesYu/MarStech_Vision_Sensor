@@ -2,17 +2,21 @@ MarStech_Vision_Sensor
 ====================================================
    * MarStech_Vision_Sensor：With the development of computer and artificial intelligence technology, teenager robot programming education is becoming more and more popular, and the related teaching equipment has gradually become a research hotspot. Visual sensor is the core component of relevant teaching equipment, and also the key module affecting the intelligent performance of robots. The existing visual sensors can achieve a single function, and the accuracy of recognition and classification is low. At the same time, the higher price is difficult to popularize in the education market, so they can not meet the market demand. The system based on **low-cost** omnidirectional H5 chip can not only run **digital image processing algorithm**, but also build a **lightweight neural network framework**, which is suitable for the design of visual sensor for robot programming education
     （火星人视觉传感器：随着计算机和人工智能技术的日益发展，青少年机器人编程教育也越来越流行，相关的教学设备逐渐成为研究的热点。视觉传感器是相关教学设备的核心部件，也是影响机器人智能化表现的关键模块。现有视觉传感器可实现功能单一，且识别、分类准确率较低，同时价格较高难以在教育市场推广普及，因而无法满足市场需求。本传感器采用的以**低成本**全志H5芯片为基础的系统不仅可以运行**数字图像处理算法**，还可以搭建**轻量级神经网络框架**，适合用于机器人编程教育视觉传感器的设计）
-![cmd-markdown-logo](https://github.com/BluesYu/MarStech_Vision_Sensor/blob/master/Overall%20design%20drawing.jpg)
+    
+Structural Design of Overall Frame（总体框架结构设计）
+-----------------------------------------------------
+![Overall-Frame](https://github.com/BluesYu/MarStech_Vision_Sensor/blob/master/Overall%20design%20drawing.jpg)
 
 Hardware Circuit Design（硬件电路设计）
 -------------------------------------
-* Key（按键）：key1,key2,key3 Corresponding to（依次对应为）：GPA0,GPA6,GPA2,Low Level Effective（低电平有效）;
-* LED（显示）：led1 Used for supplementary lighting（用于补光)，Corresponding to(对应于)GPA2,High Level Effectiveness（高电平有效）;
-              led1(GN),led2(YL),led3(BU) Corresponding to（依次对应为）：GPC0,GPC1,GPA1,Low Level Effective（低电平有效）;
+* [Sensor circuit schematic diagram(传感器电路原理图)](https://github.com/BluesYu/MarStech_Vision_Sensor/blob/master/MarStech_Vision_Sensor_Pcb.pdf)
+* Key（按键）：key1,key2,key3 Corresponding to（依次对应为）：GPA0,GPA6,GPA2,Low Level Effective（低电平有效）
+* LED（显示）：led1 Used for supplementary lighting（用于补光)，Corresponding to(对应于)GPA2,High Level Effectiveness（高电平有效）
+              led1(GN),led2(YL),led3(BU) Corresponding to（依次对应为）：GPC0,GPC1,GPA1,Low Level Effective（低电平有效）
 
 Construction of Development Environment（开发环境搭建）
 -----------------------------------------------------
- *  [Construction of Development Environment（开发环境搭建）](https://blog.csdn.net/bluesyxx/article/details/85255634#commentsedit)
+ * [Construction of Development Environment（开发环境搭建)](https://blog.csdn.net/bluesyxx/article/details/85255634#commentsedit)
  * The test program compiles the command as follows（测试程序编译命令为）:
 g++ main.cpp gpio_pi/gpio_pi.cpp gpio_pi/key_pi.cpp gpio_pi/led_pi.cpp  uart_io/uart_io.cpp  color_mode/color_mode.cpp track_mode/track_color_mode.cpp bar_mode/bar_mode.cpp -o main_test -lopencv_core -lopencv_highgui -lopencv_imgproc -lpthread -std=c++11
 

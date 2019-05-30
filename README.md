@@ -24,7 +24,7 @@ g++ main.cpp gpio_pi/gpio_pi.cpp gpio_pi/key_pi.cpp gpio_pi/led_pi.cpp  uart_io/
 
 Code Organization （代码结构）
 -------------------------------------
-* bar_mode：One-dimensional barcode recognition mode, which can be used for image processing, temporarily only supports EAN13 barcode（一维条形码识别模式，可以进行图像，暂时只支持EAN13条形码）
+* bar_mode：One-dimensional barcode recognition mode, which can be used for image processing, temporarily only supports EAN13 barcode（一维条形码识别模式，可以校正图像，暂时只支持EAN13条形码）
 * color_mode：The color recognition pattern code can recognize five colors,*red, yellow, green, blue and purple*,and support multiple objects（颜色识别模式代码，可识别*红、黄、绿、蓝、紫*五种颜色，支持多个物体）
 * track_color_mode：Object tracking based on color only supports brightly colored objects temporarily（根据颜色进行物体跟踪，暂时只支持颜色鲜艳物体）
 * lenet_num_mode：Digital recognition using LeNet-5 network to support multi-line digits（使用LeNet-5网络进行数字识别，支持多行数字）
